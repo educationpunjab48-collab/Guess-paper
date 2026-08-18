@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="10th Class Supplementary Guess Paper 2026 - Old Syllabus Guess Papers for All Punjab Boards by Educational Mission Punjab." />
+  <title>10th Class Supplementary Guess Paper 2026 | Educational Mission Punjab</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #fbf7f2;
+      --surface: rgba(255, 255, 255, 0.72);
+      --surface-strong: rgba(255, 255, 255, 0.9);
+      --text: #354052;
+      --muted: #798399;
+      --heading: #243044;
+      --pink: #f6cbd2;
+      --peach: #f7d7bd;
+      --mint: #cfe9dd;
+      --blue: #cddcf8;
+      --lavender: #ddd3f3;
+      --butter: #f7e8b3;
+      --accent: #8d79d6;
+      --accent-dark: #6654b9;
+      --success: #5cae89;
+      --shadow: 0 22px 60px rgba(73, 67, 105, 0.13);
+      --shadow-soft: 0 14px 34px rgba(84, 78, 116, 0.11);
+      --radius-xl: 34px;
+      --radius-lg: 24px;
+      --radius-md: 18px;
+      --max: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Manrope", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 10% 10%, rgba(246, 203, 210, 0.72), transparent 28%),
+        radial-gradient(circle at 85% 12%, rgba(205, 220, 248, 0.72), transparent 26%),
+        radial-gradient(circle at 20% 85%, rgba(207, 233, 221, 0.72), transparent 30%),
+        linear-gradient(135deg, #fffaf4 0%, #f8f4ff 46%, #f5fbf8 100%);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .page {
+      position: relative;
+      min-height: 100vh;
+    }
+
+    .blob {
+      position: fixed;
+      border-radius: 999px;
+      filter: blur(10px);
+      opacity: 0.45;
+      z-index: -1;
+      animation: floaty 9s ease-in-out infinite;
+    }
+
+    .blob.one {
+      width: 250px;
+      height: 250px;
+      background: var(--pink);
+      top: 120px;
+      left: -90px;
+    }
+
+    .blob.two {
+      width: 340px;
+      height: 340px;
+      background: var(--blue);
+      right: -130px;
+      top: 260px;
+      animation-delay: -3s;
+    }
+
+    .blob.three {
+      width: 210px;
+      height: 210px;
+      background: var(--mint);
+      right: 18%;
+      bottom: 40px;
+      animation-delay: -5s;
+    }
+
+    @keyframes floaty {
+      0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+      50% { transform: translate3d(18px, -22px, 0) scale(1.04); }
+    }
+
+    .container {
+      width: min(calc(100% - 36px), var(--max));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      padding: 18px 0;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(18px);
+      background: rgba(251, 247, 242, 0.72);
+      border-bottom: 1px solid rgba(255,255,255,0.65);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .brand-mark {
+      width: 48px;
+      height: 48px;
+      border-radius: 18px;
+      display: grid;
+      place-items: center;
+      background:
+        linear-gradient(135deg, rgba(255,255,255,0.92), rgba(255,255,255,0.52)),
+        linear-gradient(135deg, var(--pink), var(--lavender));
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(255,255,255,0.85);
+      font-size: 23px;
+    }
+
+    .brand-text strong {
+      display: block;
+      color: var(--heading);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      font-size: 16px;
+      white-space: nowrap;
+    }
+
+    .brand-text span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      margin-top: 2px;
+      white-space: nowrap;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .nav-link {
+      padding: 11px 15px;
+      border-radius: 999px;
+      color: #5e6778;
+      font-size: 13px;
+      font-weight: 800;
+      transition: 0.25s ease;
+    }
+
+    .nav-link:hover {
+      background: rgba(255,255,255,0.72);
+      color: var(--accent-dark);
+      transform: translateY(-1px);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      border: 0;
+      cursor: pointer;
+      border-radius: 999px;
+      padding: 13px 18px;
+      font-weight: 800;
+      font-size: 14px;
+      transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-primary {
+      color: #fff;
+      background: linear-gradient(135deg, #9381e8, #78b99d);
+      box-shadow: 0 15px 30px rgba(117, 109, 199, 0.25);
+    }
+
+    .btn-primary:hover {
+      box-shadow: 0 18px 38px rgba(117, 109, 199, 0.34);
+    }
+
+    .btn-soft {
+      color: #5c5578;
+      background: rgba(255, 255, 255, 0.74);
+      border: 1px solid rgba(255,255,255,0.9);
+      box-shadow: 0 10px 24px rgba(95, 84, 135, 0.09);
+    }
+
+    .hero {
+      padding: 72px 0 36px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 32px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.64);
+      border: 1px solid rgba(255,255,255,0.86);
+      box-shadow: 0 12px 30px rgba(96, 87, 129, 0.08);
+      color: #716696;
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+
+    .pulse-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--success);
+      box-shadow: 0 0 0 7px rgba(92, 174, 137, 0.17);
+    }
+
+    h1 {
+      font-family: "Playfair Display", serif;
+      font-size: clamp(42px, 7vw, 78px);
+      line-height: 0.95;
+      color: var(--heading);
+      letter-spacing: -0.055em;
+      max-width: 720px;
+    }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #7562d1, #5aa984, #e0a37c);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero-subtitle {
+      margin-top: 22px;
+      max-width: 650px;
+      color: #6f788b;
+      font-size: clamp(16px, 2vw, 19px);
+      line-height: 1.8;
+      font-weight: 500;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 34px;
+      max-width: 650px;
+    }
+
+    .stat {
+      padding: 18px;
+      border-radius: 22px;
+      background: rgba(255,255,255,0.58);
+      border: 1px solid rgba(255,255,255,0.82);
+      box-shadow: 0 12px 28px rgba(90, 79, 127, 0.08);
+    }
+
+    .stat strong {
+      display: block;
+      color: var(--heading);
+      font-size: 26px;
+      letter-spacing: -0.04em;
+    }
+
+    .stat span {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .premium-card {
+      position: relative;
+      min-height: 510px;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      background:
+        linear-gradient(145deg, rgba(255,255,255,0.85), rgba(255,255,255,0.45)),
+        radial-gradient(circle at 30% 10%, rgba(246, 203, 210, 0.8), transparent 34%),
+        radial-gradient(circle at 80% 70%, rgba(207, 233, 221, 0.9), transparent 34%);
+      border: 1px solid rgba(255,255,255,0.9);
+      box-shadow: var(--shadow);
+      padding: 28px;
+    }
+
+    .premium-card:before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px);
+      background-size: 36px 36px;
+      opacity: 0.32;
+      pointer-events: none;
+    }
+
+    .mock-window {
+      position: relative;
+      z-index: 1;
+      border-radius: 28px;
+      padding: 20px;
+      background: rgba(255,255,255,0.68);
+      border: 1px solid rgba(255,255,255,0.8);
+      box-shadow: 0 20px 50px rgba(76, 67, 108, 0.12);
+      backdrop-filter: blur(18px);
+    }
+
+    .window-dots {
+      display: flex;
+      gap: 7px;
+      margin-bottom: 18px;
+    }
+
+    .window-dots span {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: block;
+    }
+
+    .window-dots span:nth-child(1) { background: #f1a7b0; }
+    .window-dots span:nth-child(2) { background: #f2d17e; }
+    .window-dots span:nth-child(3) { background: #88cfaa; }
+
+    .paper-preview {
+      border-radius: 23px;
+      background: linear-gradient(180deg, #fff, rgba(255,255,255,0.75));
+      padding: 24px;
+      min-height: 355px;
+    }
+
+    .preview-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 18px;
+      margin-bottom: 22px;
+    }
+
+    .preview-title {
+      font-family: "Playfair Display", serif;
+      color: var(--heading);
+      font-size: 28px;
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 8px 11px;
+      border-radius: 999px;
+      background: #f7efe0;
+      color: #967147;
+      font-size: 12px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .subject-lines {
+      display: grid;
+      gap: 12px;
+    }
+
+    .line {
+      height: 44px;
+      border-radius: 14px;
+      background: linear-gradient(90deg, rgba(141,121,214,0.12), rgba(92,174,137,0.1));
+      display: flex;
+      align-items: center;
+      padding: 0 13px;
+      gap: 12px;
+      color: #6e7487;
+      font-weight: 800;
+      font-size: 14px;
+    }
+
+    .line-icon {
+      width: 24px;
+      height: 24px;
+      border-radius: 9px;
+      display: grid;
+      place-items: center;
+      background: #fff;
+      font-size: 13px;
+    }
+
+    .floating-note {
+      position: absolute;
+      z-index: 2;
+      right: 18px;
+      bottom: 24px;
+      width: min(240px, 58%);
+      padding: 18px;
+      border-radius: 24px;
+      background: rgba(255,255,255,0.78);
+      border: 1px solid rgba(255,255,255,0.9);
+      box-shadow: 0 20px 45px rgba(78, 70, 107, 0.14);
+      backdrop-filter: blur(16px);
+      animation: floaty 8s ease-in-out infinite;
+    }
+
+    .floating-note strong {
+      display: block;
+      color: var(--heading);
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+
+    .floating-note span {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+      font-weight: 700;
+    }
+
+    .section {
+      padding: 46px 0;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 22px;
+      margin-bottom: 22px;
+    }
+
+    .section-kicker {
+      display: inline-flex;
+      margin-bottom: 10px;
+      color: var(--accent-dark);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-family: "Playfair Display", serif;
+      color: var(--heading);
+      font-size: clamp(32px, 4vw, 48px);
+      line-height: 1.03;
+      letter-spacing: -0.05em;
+    }
+
+    .section-desc {
+      color: var(--muted);
+      max-width: 560px;
+      line-height: 1.75;
+      font-weight: 600;
+      margin-top: 12px;
+    }
+
+    .search-wrap {
+      position: relative;
+      min-width: min(360px, 100%);
+    }
+
+    .search-wrap input {
+      width: 100%;
+      height: 54px;
+      border: 1px solid rgba(255,255,255,0.86);
+      outline: none;
+      border-radius: 999px;
+      padding: 0 18px 0 48px;
+      background: rgba(255,255,255,0.72);
+      color: var(--heading);
+      font: inherit;
+      font-weight: 700;
+      box-shadow: 0 12px 30px rgba(79, 72, 108, 0.08);
+      transition: 0.25s ease;
+    }
+
+    .search-wrap input:focus {
+      border-color: rgba(141,121,214,0.35);
+      box-shadow: 0 16px 36px rgba(119, 105, 184, 0.13);
+      background: rgba(255,255,255,0.9);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #9aa1b0;
+      font-size: 18px;
+    }
+
+    .papers-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    .paper-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 210px;
+      padding: 18px;
+      border-radius: 28px;
+      background: rgba(255,255,255,0.68);
+      border: 1px solid rgba(255,255,255,0.88);
+      box-shadow: 0 16px 34px rgba(84, 77, 112, 0.09);
+      transition: transform 0.28s ease, box-shadow 0.28s ease, background 0.28s ease;
+      display: flex;
+      flex-direction: column;
+      isolation: isolate;
+    }
+
+    .paper-card:before {
+      content: "";
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      top: -65px;
+      right: -55px;
+      opacity: 0.72;
+      background: var(--card-color, var(--lavender));
+      z-index: -1;
+      transition: transform 0.35s ease;
+    }
+
+    .paper-card:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 24px 54px rgba(84, 77, 112, 0.15);
+      background: rgba(255,255,255,0.84);
+    }
+
+    .paper-card:hover:before {
+      transform: scale(1.18);
+    }
+
+    .paper-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 19px;
+      display: grid;
+      place-items: center;
+      background: rgba(255,255,255,0.72);
+      border: 1px solid rgba(255,255,255,0.8);
+      box-shadow: 0 12px 22px rgba(87, 80, 119, 0.08);
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+
+    .paper-card h3 {
+      color: var(--heading);
+      font-size: 18px;
+      line-height: 1.25;
+      letter-spacing: -0.025em;
+      margin-bottom: 7px;
+    }
+
+    .paper-card p {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+      font-weight: 650;
+      margin-bottom: 18px;
+    }
+
+    .paper-meta {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+      margin-top: auto;
+      margin-bottom: 14px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 7px 9px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.64);
+      color: #737b8e;
+      font-size: 11px;
+      font-weight: 900;
+      border: 1px solid rgba(255,255,255,0.7);
+    }
+
+    .download-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      width: 100%;
+      padding: 12px 13px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, rgba(141,121,214,0.13), rgba(92,174,137,0.12));
+      color: #5a5275;
+      font-weight: 900;
+      font-size: 13px;
+      transition: 0.25s ease;
+    }
+
+    .download-link:hover {
+      background: linear-gradient(135deg, rgba(141,121,214,0.22), rgba(92,174,137,0.2));
+      color: var(--accent-dark);
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 18px;
+    }
+
+    .panel {
+      border-radius: var(--radius-xl);
+      background: rgba(255,255,255,0.68);
+      border: 1px solid rgba(255,255,255,0.88);
+      box-shadow: var(--shadow-soft);
+      padding: 28px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .panel:after {
+      content: "";
+      position: absolute;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: rgba(246, 203, 210, 0.45);
+      right: -90px;
+      top: -100px;
+      z-index: 0;
+    }
+
+    .panel > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .feature-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .feature {
+      padding: 16px;
+      border-radius: 20px;
+      background: rgba(255,255,255,0.56);
+      border: 1px solid rgba(255,255,255,0.7);
+    }
+
+    .feature strong {
+      display: block;
+      color: var(--heading);
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+
+    .feature span {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+      font-weight: 650;
+    }
+
+    .contact-card {
+      display: grid;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px;
+      border-radius: 19px;
+      background: rgba(255,255,255,0.58);
+      border: 1px solid rgba(255,255,255,0.74);
+      color: #5f687b;
+      font-weight: 800;
+      transition: 0.25s ease;
+    }
+
+    .contact-row:hover {
+      transform: translateY(-2px);
+      background: rgba(255,255,255,0.8);
+      box-shadow: 0 14px 28px rgba(84, 77, 112, 0.09);
+    }
+
+    .contact-left {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      min-width: 0;
+    }
+
+    .contact-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 15px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, rgba(221,211,243,0.86), rgba(207,233,221,0.84));
+      flex: 0 0 auto;
+    }
+
+    .contact-text {
+      min-width: 0;
+    }
+
+    .contact-text strong {
+      display: block;
+      color: var(--heading);
+      font-size: 14px;
+    }
+
+    .contact-text span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 2px;
+      overflow-wrap: anywhere;
+    }
+
+    .arrow {
+      color: #9ca3b2;
+      font-weight: 900;
+      flex: 0 0 auto;
+    }
+
+    .cta {
+      padding: 56px 0 28px;
+    }
+
+    .cta-box {
+      position: relative;
+      overflow: hidden;
+      border-radius: 38px;
+      padding: 42px;
+      background:
+        linear-gradient(135deg, rgba(255,255,255,0.82), rgba(255,255,255,0.55)),
+        radial-gradient(circle at 10% 20%, rgba(247,216,189,0.9), transparent 34%),
+        radial-gradient(circle at 95% 80%, rgba(205,220,248,0.9), transparent 36%);
+      border: 1px solid rgba(255,255,255,0.92);
+      box-shadow: var(--shadow);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+
+    .cta-box h2 {
+      max-width: 670px;
+    }
+
+    .cta-box p {
+      max-width: 660px;
+      margin-top: 12px;
+      color: var(--muted);
+      line-height: 1.75;
+      font-weight: 650;
+    }
+
+    .footer {
+      padding: 28px 0 42px;
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      color: #7c8496;
+      font-size: 13px;
+      font-weight: 800;
+      padding: 18px 0 0;
+      border-top: 1px solid rgba(255,255,255,0.7);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .footer-links a, .footer-links button {
+      border: 0;
+      cursor: pointer;
+      font: inherit;
+      color: #6f668f;
+      background: rgba(255,255,255,0.52);
+      padding: 9px 12px;
+      border-radius: 999px;
+      transition: 0.25s ease;
+    }
+
+    .footer-links a:hover, .footer-links button:hover {
+      background: rgba(255,255,255,0.82);
+      transform: translateY(-1px);
+    }
+
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: 22px;
+      transform: translateX(-50%) translateY(30px);
+      opacity: 0;
+      pointer-events: none;
+      padding: 13px 17px;
+      border-radius: 999px;
+      background: rgba(36, 48, 68, 0.92);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 800;
+      box-shadow: 0 18px 40px rgba(36,48,68,0.18);
+      z-index: 100;
+      transition: 0.3s ease;
+    }
+
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    @media (max-width: 1020px) {
+      .hero-grid,
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .premium-card {
+        min-height: 470px;
+      }
+
+      .papers-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 780px) {
+      .container {
+        width: min(calc(100% - 26px), var(--max));
+      }
+
+      .topbar {
+        padding: 12px 0;
+      }
+
+      .nav-actions .nav-link {
+        display: none;
+      }
+
+      .brand-mark {
+        width: 43px;
+        height: 43px;
+        border-radius: 16px;
+      }
+
+      .brand-text strong {
+        font-size: 14px;
+      }
+
+      .brand-text span {
+        font-size: 11px;
+      }
+
+      .hero {
+        padding-top: 45px;
+      }
+
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .section-head {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .papers-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .feature-list {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-box {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .footer-links {
+        justify-content: flex-start;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .btn {
+        width: 100%;
+      }
+
+      .nav-actions .btn {
+        width: auto;
+        padding-inline: 14px;
+        font-size: 12px;
+      }
+
+      .hero-actions {
+        display: grid;
+      }
+
+      .papers-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .paper-card {
+        min-height: 190px;
+      }
+
+      .premium-card {
+        min-height: 520px;
+        padding: 18px;
+        border-radius: 28px;
+      }
+
+      .mock-window {
+        padding: 15px;
+        border-radius: 24px;
+      }
+
+      .paper-preview {
+        padding: 18px;
+      }
+
+      .preview-top {
+        flex-direction: column;
+      }
+
+      .floating-note {
+        width: calc(100% - 36px);
+        right: 18px;
+        bottom: 18px;
+      }
+
+      .panel {
+        padding: 22px;
+      }
+
+      .cta-box {
+        border-radius: 30px;
+        padding: 24px;
+      }
+
+      .contact-row {
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="blob one"></div>
+    <div class="blob two"></div>
+    <div class="blob three"></div>
+
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand" href="#home" aria-label="Educational Mission Punjab Home">
+          <div class="brand-mark">📚</div>
+          <div class="brand-text">
+            <strong>Educational Mission Punjab</strong>
+            <span>Premium Guess Papers 2026</span>
+          </div>
+        </a>
+
+        <nav class="nav-actions" aria-label="Main navigation">
+          <a class="nav-link" href="#papers">Guess Papers</a>
+          <a class="nav-link" href="#details">Details</a>
+          <a class="nav-link" href="#contact">Contact</a>
+          <a class="btn btn-primary" href="https://whatsapp.com/channel/0029Vb5xwwBDp2Q4llb1mz1B" target="_blank" rel="noopener">Join Channel</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Supplementary Study Pack 2026</div>
+            <h1>10th Class <span class="gradient-text">Old Syllabus Guess Paper's</span></h1>
+            <p class="hero-subtitle">
+              A soft, premium study portal for 10th class supplementary exam preparation. Access neatly arranged guess papers for <strong>All Punjab Boards</strong> with one-tap Google Drive links.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#papers">Explore Guess Papers</a>
+              <a class="btn btn-soft" href="https://wa.me/41787631160" target="_blank" rel="noopener">Contact on WhatsApp</a>
+            </div>
+
+            <div class="stats" aria-label="Highlights">
+              <div class="stat">
+                <strong>13+</strong>
+                <span>Study PDFs</span>
+              </div>
+              <div class="stat">
+                <strong>2026</strong>
+                <span>Supplementary</span>
+              </div>
+              <div class="stat">
+                <strong>All</strong>
+                <span>Punjab Boards</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="premium-card" aria-label="Premium study preview">
+            <div class="mock-window">
+              <div class="window-dots"><span></span><span></span><span></span></div>
+              <div class="paper-preview">
+                <div class="preview-top">
+                  <div>
+                    <div class="preview-title">Study Smart<br />Score Better</div>
+                  </div>
+                  <span class="badge">✨ Premium Layout</span>
+                </div>
+
+                <div class="subject-lines">
+                  <div class="line"><span class="line-icon">🧪</span> Chemistry Guess Paper 2026</div>
+                  <div class="line"><span class="line-icon">⚙️</span> Physics + Numericals</div>
+                  <div class="line"><span class="line-icon">🧬</span> Biology Old Syllabus</div>
+                  <div class="line"><span class="line-icon">📝</span> English, Urdu & Pak Study</div>
+                  <div class="line"><span class="line-icon">➗</span> Math, General Math & Science</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-note">
+              <strong>All Punjab Boards</strong>
+              <span>Designed for quick revision, supplementary preparation, and smooth access on mobile.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="papers">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="section-kicker">Download Center</span>
+              <h2>10th Class Old Syllabus Guess Paper's</h2>
+              <p class="section-desc">
+                Select your subject below. Every button opens the official Google Drive file in a new tab for fast reading or download.
+              </p>
+            </div>
+
+            <label class="search-wrap" aria-label="Search guess papers">
+              <span class="search-icon">⌕</span>
+              <input id="searchInput" type="search" placeholder="Search subject..." autocomplete="off" />
+            </label>
+          </div>
+
+          <div class="papers-grid" id="papersGrid">
+            <article class="paper-card" data-subject="pak study pakistan studies" style="--card-color:#f6cbd2;">
+              <div class="paper-icon">🇵🇰</div>
+              <h3>Pak Study</h3>
+              <p>Supplementary guess paper for old syllabus revision.</p>
+              <div class="paper-meta"><span class="pill">Old Syllabus</span><span class="pill">All Punjab Boards</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/1-uCrF3xZFfgP46z6KPjadpprLAkaeqbr/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+
+            <article class="paper-card" data-subject="computer science" style="--card-color:#cddcf8;">
+              <div class="paper-icon">💻</div>
+              <h3>Computer</h3>
+              <p>Important questions and focused preparation material.</p>
+              <div class="paper-meta"><span class="pill">PDF Link</span><span class="pill">2026</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/1avhBQFdlqq6i0U3Uq2qTTLWTgHZYh5O-/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+
+            <article class="paper-card" data-subject="urdu" style="--card-color:#ddd3f3;">
+              <div class="paper-icon">✒️</div>
+              <h3>Urdu</h3>
+              <p>Premium arranged Urdu guess paper for revision.</p>
+              <div class="paper-meta"><span class="pill">Old Syllabus</span><span class="pill">Drive</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/1xvRtsOwgESy12QMChn2NluI17bL5V7xE/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+
+            <article class="paper-card" data-subject="biology bio" style="--card-color:#cfe9dd;">
+              <div class="paper-icon">🧬</div>
+              <h3>Biology</h3>
+              <p>Biology supplementary guess paper for 10th class.</p>
+              <div class="paper-meta"><span class="pill">Science Group</span><span class="pill">2026</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/1fHfgGuGv4uxa3Q7gPdhFigJKRhd3K5Ze/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+
+            <article class="paper-card" data-subject="chemistry chem" style="--card-color:#f7d7bd;">
+              <div class="paper-icon">🧪</div>
+              <h3>Chemistry</h3>
+              <p>Focused Chemistry guess paper for better exam practice.</p>
+              <div class="paper-meta"><span class="pill">Science Group</span><span class="pill">PDF</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/1Ms65HOrz6VPIpw90x0aY0xRBBwmiRDkm/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+
+            <article class="paper-card" data-subject="general math mathematics" style="--card-color:#f7e8b3;">
+              <div class="paper-icon">➗</div>
+              <h3>General Math</h3>
+              <p>General Math paper for old syllabus supplementary exams.</p>
+              <div class="paper-meta"><span class="pill">Arts Group</span><span class="pill">All Boards</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/1Gya8eXeus-IPRK1AcF71rJP7msemoPBO/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+
+            <article class="paper-card" data-subject="general science" style="--card-color:#cfe9dd;">
+              <div class="paper-icon">🔬</div>
+              <h3>General Science</h3>
+              <p>Important General Science guess paper for revision.</p>
+              <div class="paper-meta"><span class="pill">Arts Group</span><span class="pill">2026</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/19sKUwpQBRWPDvswzKgWBh-fQD1kxypZh/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+
+            <article class="paper-card" data-subject="maths mathematics" style="--card-color:#ddd3f3;">
+              <div class="paper-icon">📐</div>
+              <h3>Maths</h3>
+              <p>Mathematics guess paper with exam-focused preparation.</p>
+              <div class="paper-meta"><span class="pill">Science Group</span><span class="pill">Old Syllabus</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/1AVKfITYbcpk6BSZOEVsSlneoR82irRsu/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+
+            <article class="paper-card" data-subject="english" style="--card-color:#cddcf8;">
+              <div class="paper-icon">📘</div>
+              <h3>English</h3>
+              <p>English guess paper for quick and clean exam revision.</p>
+              <div class="paper-meta"><span class="pill">Compulsory</span><span class="pill">Drive</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/1HdnGs6omiMpa4SeswePupOAOjeHB1scD/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+
+            <article class="paper-card" data-subject="math mathematics" style="--card-color:#f7e8b3;">
+              <div class="paper-icon">🧮</div>
+              <h3>Math</h3>
+              <p>Additional Math guess paper link for 10th class students.</p>
+              <div class="paper-meta"><span class="pill">PDF</span><span class="pill">All Punjab Boards</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/1jaoQuA8UgPZb6BaTJNe8SfTxuSUGFqAE/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+
+            <article class="paper-card" data-subject="physics" style="--card-color:#f6cbd2;">
+              <div class="paper-icon">⚙️</div>
+              <h3>Physics</h3>
+              <p>Physics supplementary guess paper for old syllabus prep.</p>
+              <div class="paper-meta"><span class="pill">Science Group</span><span class="pill">2026</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/1WRrYSiydvnyKkqC2lKnJRbhxtNaIRrZa/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+
+            <article class="paper-card" data-subject="physics numericals numerical" style="--card-color:#cddcf8;">
+              <div class="paper-icon">⚡</div>
+              <h3>Physics Numericals</h3>
+              <p>Important numerical practice paper for Physics preparation.</p>
+              <div class="paper-meta"><span class="pill">Numericals</span><span class="pill">PDF</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/1Xmhh6PeoQduk4iwvFfocvEa0JeW0sWzM/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+
+            <article class="paper-card" data-subject="health physical education health and physical education" style="--card-color:#cfe9dd;">
+              <div class="paper-icon">🏃</div>
+              <h3>Health And Physical Education</h3>
+              <p>Health and Physical Education guess paper for 10th class.</p>
+              <div class="paper-meta"><span class="pill">Optional</span><span class="pill">All Boards</span></div>
+              <a class="download-link" href="https://drive.google.com/file/d/10d2xhUBzn9rCi5RF8AbnxHSLbwDfnDbl/view?usp=drivesdk" target="_blank" rel="noopener">Open Paper <span>↗</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="details">
+        <div class="container info-grid">
+          <div class="panel">
+            <span class="section-kicker">Premium Study Style</span>
+            <h2>Made for smooth supplementary preparation.</h2>
+            <p class="section-desc">
+              This pastel study page keeps every subject organized, mobile-friendly, and easy to access so students can focus on revision instead of searching files.
+            </p>
+
+            <div class="feature-list">
+              <div class="feature">
+                <strong>All Punjab Boards</strong>
+                <span>Designed for students preparing under Punjab boards with old syllabus resources.</span>
+              </div>
+              <div class="feature">
+                <strong>One-Tap Links</strong>
+                <span>Every subject opens directly from Google Drive in a new tab.</span>
+              </div>
+              <div class="feature">
+                <strong>Pastel Premium UI</strong>
+                <span>Soft colors, rounded cards, smooth shadows, and a delicate study mood.</span>
+              </div>
+              <div class="feature">
+                <strong>Mobile Ready</strong>
+                <span>Clean responsive layout for phones, tablets, laptops, and desktops.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel" id="contact">
+            <span class="section-kicker">Official Links</span>
+            <h2>Connect & Updates</h2>
+            <p class="section-desc">
+              Join the WhatsApp channel for updates or contact Educational Mission Punjab directly.
+            </p>
+
+            <div class="contact-card">
+              <a class="contact-row" href="https://whatsapp.com/channel/0029Vb5xwwBDp2Q4llb1mz1B" target="_blank" rel="noopener">
+                <span class="contact-left">
+                  <span class="contact-icon">🟢</span>
+                  <span class="contact-text">
+                    <strong>WhatsApp Channel</strong>
+                    <span>Join for latest study updates</span>
+                  </span>
+                </span>
+                <span class="arrow">↗</span>
+              </a>
+
+              <a class="contact-row" href="https://wa.me/41787631160" target="_blank" rel="noopener">
+                <span class="contact-left">
+                  <span class="contact-icon">☎️</span>
+                  <span class="contact-text">
+                    <strong>Contact Number</strong>
+                    <span>WhatsApp: +41 78 763 11 60</span>
+                  </span>
+                </span>
+                <span class="arrow">↗</span>
+              </a>
+
+              <div class="contact-row">
+                <span class="contact-left">
+                  <span class="contact-icon">⏳</span>
+                  <span class="contact-text">
+                    <strong>Temporary Number</strong>
+                    <span>Updates will be shared on the WhatsApp channel</span>
+                  </span>
+                </span>
+                <span class="arrow">•</span>
+              </div>
+
+              <a class="contact-row" href="https://www.facebook.com/educational.mission.punjab" target="_blank" rel="noopener">
+                <span class="contact-left">
+                  <span class="contact-icon">📘</span>
+                  <span class="contact-text">
+                    <strong>Facebook</strong>
+                    <span>Educational Mission Punjab</span>
+                  </span>
+                </span>
+                <span class="arrow">↗</span>
+              </a>
+
+              <button class="contact-row" type="button" id="copyEmail">
+                <span class="contact-left">
+                  <span class="contact-icon">❤️</span>
+                  <span class="contact-text">
+                    <strong>Email</strong>
+                    <span>educationpunjab48@gmail.com</span>
+                  </span>
+                </span>
+                <span class="arrow">Copy</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container">
+          <div class="cta-box">
+            <div>
+              <span class="section-kicker">Final Revision Ready</span>
+              <h2>Keep your guess papers saved before exams.</h2>
+              <p>
+                Open your required subject, save the PDF to your device, and share this page with classmates preparing for 10th Class Supplementary 2026.
+              </p>
+            </div>
+            <a class="btn btn-primary" href="https://whatsapp.com/channel/0029Vb5xwwBDp2Q4llb1mz1B" target="_blank" rel="noopener">Join WhatsApp Channel</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>Powered By : <strong>Educational Mission Punjab</strong></div>
+        <div class="footer-links">
+          <a href="#papers">Guess Papers</a>
+          <a href="https://wa.me/41787631160" target="_blank" rel="noopener">Contact</a>
+          <a href="https://www.facebook.com/educational.mission.punjab" target="_blank" rel="noopener">Facebook</a>
+          <button type="button" id="footerCopyEmail">Email ❤️</button>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast">Email copied: educationpunjab48@gmail.com</div>
+  </div>
+
+  <script>
+    const searchInput = document.getElementById("searchInput");
+    const paperCards = Array.from(document.querySelectorAll(".paper-card"));
+    const toast = document.getElementById("toast");
+    const email = "educationpunjab48@gmail.com";
+
+    searchInput.addEventListener("input", () => {
+      const query = searchInput.value.trim().toLowerCase();
+
+      paperCards.forEach(card => {
+        const title = card.querySelector("h3").textContent.toLowerCase();
+        const tags = card.dataset.subject.toLowerCase();
+        const isMatch = title.includes(query) || tags.includes(query);
+        card.classList.toggle("hidden", !isMatch);
+      });
+    });
+
+    function showToast(message) {
+      toast.textContent = message;
+      toast.classList.add("show");
+      clearTimeout(window.toastTimer);
+      window.toastTimer = setTimeout(() => toast.classList.remove("show"), 2400);
+    }
+
+    async function copyEmail() {
+      try {
+        await navigator.clipboard.writeText(email);
+        showToast("Email copied: " + email);
+      } catch (error) {
+        showToast("Email: " + email);
+      }
+    }
+
+    document.getElementById("copyEmail").addEventListener("click", copyEmail);
+    document.getElementById("footerCopyEmail").addEventListener("click", copyEmail);
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.animate(
+            [
+              { opacity: 0, transform: "translateY(18px)" },
+              { opacity: 1, transform: "translateY(0)" }
+            ],
+            { duration: 520, easing: "cubic-bezier(.2,.8,.2,1)", fill: "both" }
+          );
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll(".paper-card, .panel, .cta-box").forEach(el => revealObserver.observe(el));
+  </script>
+</body>
+</html>
